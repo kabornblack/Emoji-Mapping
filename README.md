@@ -1,28 +1,57 @@
-# React Notes App
+# Getting Started with Create React App
+This project was bootstrapped with Create React App.
 
-This project was inspired by Google keep and was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Available Scripts
+In the project directory, you can run:
 
-## Introduction
-The React Notes App is a basic note-taking application built using React. It consists of three main components:
+### npm start
+Runs the app in the development mode.
+Open http://localhost:3000 to view it in your browser.
 
-### App: The main component that manages the overall structure of the app, including rendering the header, footer, notes, and the create area.
+The page will reload when you make changes.
+You may also see any lint errors in the console.
 
-### Note: A component responsible for displaying individual notes and has a delete button that notes can also be deleted using the "DELETE" button.
+### npm test
+Launches the test runner in the interactive watch mode.
+See the section about running tests for more information.
 
-### CreateArea: A component that allows users to create new notes by entering a title and content. Once added, the notes are displayed in the list.
+### npm run build
+Builds the app for production to the build folder.
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## Usage
-Create a new note:
+The build is minified and the filenames include the hashes.
+Your app is ready to be deployed!
 
-Enter a title and content in the provided input fields.
-Click the "Add" button to create a new note.
-View notes:
+See the section about deployment for more information.
 
-All created notes will be displayed in a list format.
-Delete a note:
+### npm run eject
+Note: this is a one-way operation. Once you eject, you can't go back!
 
-Click the "DELETE" button next to a note to remove it from the list.
+If you aren't satisfied with the build tool and configuration choices, you can eject at any time. This command will remove the single build dependency from your project.
 
-## Styling
- The styling is done using CSS and focuses on providing a clean and responsive user interface.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except eject will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
+You don't have to ever use eject. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+You can learn more in the Create React App documentation.
+
+To learn React, check out the React documentation.
+
+## Code Splitting
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+
+## Analyzing the Bundle Size
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+
+## Making a Progressive Web App
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
+## Advanced Configuration
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+## Deployment
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### npm run build fails to minify
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
