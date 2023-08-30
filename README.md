@@ -11,7 +11,8 @@ The React Notes App is a basic note-taking application built using React. It con
 
 ### CreateArea: A component that allows users to create new notes by entering a title and content. Once added, the notes are displayed in the list.
 
-Usage
+## Usage
+
 Create a new note:
 
 Enter a title and content in the provided input fields.
@@ -22,6 +23,8 @@ All created notes will be displayed in a list format.
 Delete a note:
 
 Click the "DELETE" button next to a note to remove it from the list.
-Styling
-The app includes some basic styling to improve the visual appearance. The styling is done using CSS and focuses on providing a clean and responsive user interface.
+
+## Styling
+
+ The styling is done using CSS and focuses on providing a clean and responsive user interface.
 
